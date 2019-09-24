@@ -142,7 +142,7 @@ bool at_least_two_alive(bool A_alive, bool B_alive, bool C_alive) {
 }
 
 void test_at_least_two_alive() {
-	cout << "Unit Testing 1: Function –at_least_two_alive()\n";
+	cout << "Unit Testing 1: Function â€“at_least_two_alive()\n";
 	cout << "Case 1: Aaron alive, Bob alive, Charlie alive\n";
 	assert(true == at_least_two_alive(true, true, true));
 	cout << "Case passed ...\n";
