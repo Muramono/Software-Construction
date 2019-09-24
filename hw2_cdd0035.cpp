@@ -12,6 +12,7 @@ int main() {
 	double LoanAmt, IntRate, MonthlyPay, TotPay = 0, CurrMonth = 1, IntAmt, TotInt = 0;
 	double MontInt, Prin;
 	bool Testing = false;
+	//A function used to input Loan amounts and interest rates to test easy to calculate inputs for program verification.
 	if (Testing) {
 		cout << "Loan Amount : ";
 		cin >> LoanAmt;
